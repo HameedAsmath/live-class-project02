@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Orbitron:wght@700&family=Oswald:wght@700&family=Red+Rose:wght@700&family=Roboto:ital,wght@0,300;0,700;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Red Rose", cursive;
+}
+body {
+  background-image: url("./assets/bg-img.png");
+  background-position: top 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  margin: 25px;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+nav {
+  position: relative;
+}
+nav ul {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 18px;
+  color: #f4be2c;
+}
+.nav-button {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.button-small {
+  padding: 10px 30px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: #e6425e;
+  border: 0px;
+}
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+  position: relative;
+}
+.hero-heading {
+  margin-top: 8%;
+  font-size: 80px;
+  color: #f7cd2e;
+  font-weight: bolder;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+}
+/*******************footer****************/
+.footer-container {
+  position: relative;
+  background-color: aquamarine;
+  margin-top: 34%;
+}
+
+.button-large {
+  position: absolute;
+  background-color: #e6425e;
+  color: #fff;
+  border: 0;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bottom {
+  position: absolute;
+  right: 5%;
+}
+.footer-img {
+  height: 140px;
+  bottom: 0px;
+}
